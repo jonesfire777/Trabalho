@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "323479232088",
+    "firebase_url": "https://android-nativo-37197.firebaseio.com",
+    "project_id": "android-nativo-37197",
+    "storage_bucket": "android-nativo-37197.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323479232088:android:6304b5fddad0dffea7b42d",
+        "android_client_info": {
+          "package_name": "com.example.adega"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323479232088-aa3aa55opac99jkpduadg29tnkepnbcm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.adega",
+            "certificate_hash": "9344732eab6b4c30218d554459cbcf34bfc54d60"
+          }
+        },
+        {
+          "client_id": "323479232088-3ds11jp5pvndvre43hvldfdpoqh3hets.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2sz1PD0N9y9V1LmWw87b3NPanVeHWJVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323479232088-3ds11jp5pvndvre43hvldfdpoqh3hets.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

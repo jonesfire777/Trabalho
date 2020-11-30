@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar amigo" />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="xl"
+        app:bootstrapBrand="info"
+        android:id="@+id/edtNome"
+        android:hint="Nome"
+        android:inputType="text"
+        app:roundedCorners="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="xl"
+        app:bootstrapBrand="info"
+        android:id="@+id/edtPedido"
+        android:hint="Pedido"
+        android:inputType="text"
+        app:roundedCorners="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <com.beardedhen.androidbootstrap.BootstrapEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:bootstrapSize="xl"
+        app:bootstrapBrand="info"
+        android:id="@+id/edtIdade"
+        android:hint="Idade"
+        android:inputType="number"
+        app:roundedCorners="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <com.beardedhen.androidbootstrap.BootstrapButton
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        app:bootstrapBrand="primary"
+        app:bootstrapSize="lg"
+        app:buttonMode="regular"
+        app:showOutline="false"
+        app:roundedCorners="true"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Nome"/>
+
+    <TextView
+        android:id="@+id/txtPedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Pedido"/>
+
+    <TextView
+        android:id="@+id/txtIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Idade"/>
+
+
+
+</LinearLayout>
